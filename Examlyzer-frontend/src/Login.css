@@ -1,0 +1,35 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+
+.login-bg {
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  color: #fff;
+}
+
+.form-label,
+.form-control,
+.form-select {
+  color: #fff;
+}
+
+.form-control,
+.form-select {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+
+button {
+  background-color: #2563eb !important;
+  border: none;
+}
+
+button:hover {
+  background-color: #1d4ed8 !important;
+}
